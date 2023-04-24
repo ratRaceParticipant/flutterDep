@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   String days = "101";
+  bool darkMode = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +11,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $days of flutter"),
+          child: Text("Welcome to $darkMode of flutter"),
         ),
       ),
       drawer: Drawer(),

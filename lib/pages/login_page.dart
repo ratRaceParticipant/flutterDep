@@ -10,9 +10,12 @@ class LoginPage extends StatelessWidget {
       child: Center(
           child: Column(
         children: [
+          const SizedBox(
+            height: 20.0,
+          ),
           Image.asset(
-            "assets/images/login_image.png",
-            fit: BoxFit.cover,
+            "assets/images/login_image_2.png",
+            fit: BoxFit.fill,
           ),
           const Text(
             "Welcome",

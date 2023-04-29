@@ -23,6 +23,7 @@ class MyDrawer extends StatelessWidget {
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(_jojiImageURL),
                   ),
+                  currentAccountPictureSize: Size.fromRadius(40),
                   margin: EdgeInsets.zero,
                   accountName: Text("Himanshu"),
                   accountEmail: Text("averageRatRacer@gmail.com")),
@@ -40,6 +41,7 @@ class MyDrawer extends StatelessWidget {
                 ),
               ),
             ),
+            
 
             // ...
 

@@ -19,8 +19,7 @@ class MyApp extends StatelessWidget {
           color: Colors.white,
           elevation: 0.0,
           iconTheme: IconThemeData(color: Colors.black),
-          titleTextStyle: TextStyle(
-              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 17.0),
+          titleTextStyle: TextStyle(color: Colors.black, fontSize: 20.0),
         ),
         primarySwatch: Colors.green,
         fontFamily: GoogleFonts.lato().fontFamily,
